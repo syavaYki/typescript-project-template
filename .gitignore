@@ -7,6 +7,7 @@ yarn-error.log*
 dist/
 build/
 *.tsbuildinfo
+*.d.ts.map
 
 # Coverage reports
 coverage/
