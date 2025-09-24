@@ -1,0 +1,29 @@
+# Ignore artifacts:
+dist
+coverage
+.nyc_output
+
+# Ignore dependencies:
+node_modules
+
+# Ignore all dot files except prettier config
+.*
+!.prettierrc
+!.prettierrc.json
+!.prettierrc.js
+!.prettierrc.ts
+!.prettierrc.yaml
+!.prettierrc.yml
+
+# Ignore specific file types
+*.log
+*.tsbuildinfo
+
+# Ignore package-lock.json (if using npm)
+package-lock.json
+
+# Ignore yarn.lock (if using yarn)
+yarn.lock
+
+# Ignore pnpm-lock.yaml (if using pnpm)
+pnpm-lock.yaml
